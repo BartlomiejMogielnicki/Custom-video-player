@@ -12,6 +12,75 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: gray;
+    background-color: #454A4C;
     height: 100vh;
+}
+
+h1 {
+    padding: 20px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    padding: 20px;
+    background-color: #008BD0;
+    border: 1px solid white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.video {
+    width: 100%;
+    cursor: pointer;
+}
+
+.controls {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    background-color: #454A4C;
+    border: 1px solid white;
+    border-top: none;
+}
+
+.progress {
+    flex-grow: 2;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.btn {
+    margin-left: 10px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.time {
+    color: white;
+    justify-self: flex-end;
+    margin-right: 10px;
+}
+
+@media (max-width: 800px) {
+
+    .container,
+    .video,
+    .controls {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
 }
