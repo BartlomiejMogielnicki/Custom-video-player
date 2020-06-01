@@ -17,7 +17,7 @@ body {
 }
 
 h1 {
-    padding: 20px;
+    padding: 10px;
     color: white;
 }
 
@@ -25,11 +25,8 @@ h1 {
     display: flex;
     justify-content: center;
     width: 70%;
-    padding: 20px;
     background-color: #008BD0;
-    border: 1px solid white;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border: 2px solid white;
 }
 
 .video {
@@ -42,7 +39,7 @@ h1 {
     width: 70%;
     align-items: center;
     background-color: #454A4C;
-    border: 1px solid white;
+    border: 2px solid white;
     border-top: none;
 }
 
